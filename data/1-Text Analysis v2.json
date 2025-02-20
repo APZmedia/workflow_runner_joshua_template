@@ -1,0 +1,75 @@
+{
+  "1": {
+    "inputs": {
+      "String": "The US is dismantling nuclear warheads to power the next generation of reactors\nElla Nilsen\nBy Ella Nilsen, CNN\n 5 minute read \nUpdated 1:41 PM EDT, Mo n September 9, 2024\n\n\n\nThis cast is filled with molten-hot enriched uranium called HALEU. It was made in part from America's old nuclear warheads.\nThis cast is filled with molten-hot enriched uranium called HALEU. It was made in part from America's old nuclear warheads. National Nuclear Security Administration\n\nInside a highly classified facility in Oak Ridge, Tennessee — the same facility that enriched uranium for the first atomic bomb in the era of the Manhattan Project — workers are turning old, unexploded warheads into fuel that will power cities.\n\nThe recipe to create advanced reactor fuel involves melting weapons-grade uranium with low-enriched uranium in a crucible — a massive, metal cauldron heated to around 2,500 degrees Fahrenheit to turn its contents into molten soup.\n\nEmerging from its furnace, a glowing orange cast filled with the hot liquid uranium is slowly lowered into a cooling chamber. The hardened finished product, which looks like black charcoal, can be safely held in-hand.\n\nThis fuel is set to power the next generation of America’s nuclear reactors — small, modular power stations that are easier and cheaper to build. They require far less upkeep and physical space than the aging fleet of large nuclear power plants.\n\nHALEU is canned at a secure federal facility in Oak Ridge, Tenneseee.\nHALEU is canned at a secure federal facility in Oak Ridge, Tenneseee. National Nuclear Security Administration\nOne downside? They also require a more-enriched and energy-dense uranium.\n\nUntil last year, the United States got the vast majority of its enriched uranium from Russia. A bipartisan law passed after Russia’s invasion of Ukraine put a stop to that. Now, scientists and companies are racing to produce it at home.\n\nWhy does Russia have so much enriched uranium?\nAfter the Cold War, Russia possessed loads of highly enriched uranium — the kind used for weapons. In negotiations after the war, the US and other countries encouraged Russia to dilute that uranium below the weapon-making threshold, and sell it to the world as nuclear fuel. It was a beneficial deal for all parties. The US had a supply of fuel, and Russia — which was struggling economically after the Cold War — had a willing market to sell to.\nDownblending old weapons from the nuclear arsenal is not the only way to make this fuel, known as high assay low-enriched uranium — or HALEU for short. A couple of facilities around the country are also making it, and they are expected to produce most of the fuel in the long run. The federal government is expected to award over $2 billion in the coming months to uranium enrichment companies to help kickstart the supply chain.\n\nIn the meantime, the feds are doing a “couch cushion exercise,” scouring high and low for suitable nuclear fuel that might have slipped through the cracks, said Michael Goff, principal deputy assistant secretary for the Energy Department’s Office of Nuclear Energy. In addition to the US nuclear stockpile, the Idaho National Laboratory is also downblending part of its collection of fuel from research reactors.\n\nThat the US is looking to its own arsenal for nuclear fuel speaks to how much of a scramble there is to get new-age reactors off the ground — like TerraPower, the Bill Gates-backed project in Wyoming that recently broke ground.\n\nProjects like TerraPower are awaiting the fuel shipments, anxious they may run out of time. The company was set to get its first fuel shipments from Russia – the world’s only commercial HALEU supplier.\n\nThat changed after the war in Ukraine.\n\n“We are getting to the point where we need to see more urgency from the government,” said Jeff Navin, TerraPower’s director of external affairs. “There’s a huge national interest to move quickly. We don’t fully understand why that same sense of urgency hasn’t gotten to the Department of Energy in getting this material out.”\n\nBill Gates at the groundbreaking for TerraPower's nuclear power plant near Kemmerer, Wyoming, in June.\nBill Gates at the groundbreaking for TerraPower's nuclear power plant near Kemmerer, Wyoming, in June. Benjamin Rasmussen/The New York Times/Redux\nBottom line, the amount of HALEU the US can get from its nuclear weapon stockpile is relatively small. It’s going to need a bigger production line.\n\n“The long-term solution is we have to have enrichment,” said Jeff Chamberlin, the acting principal assistant deputy administrator for defense nuclear nonproliferation. “Even if we down-blended all that material tomorrow, we couldn’t supply the demonstration needs of all the advanced reactor companies the US has stated right now.”\n\nWhy the US needs special nuclear fuel\nThe United States currently gets about 20% of its power from nuclear. Inside the US Energy Department, there’s high interest to increase that percentage in the coming years because nuclear energy is reliable and doesn’t produce climate pollution.\n\n“We need some firm, clean baseload electricity — nuclear provides that,” said Goff. “In order to meet our energy security needs and our climate goals, we do need significantly more nuclear energy deployed.”\n\nThe nuclear power industry is increasingly looking to smaller reactors, which run on HALEU. These reactors can last longer than conventional ones and fit into smaller spaces — making them more versatile and easier to set up.\n\n\nThe uranium for conventional reactors is enriched up to 5% and HALEU is uranium enriched between 5-20%. Highly enriched uranium is anything more than 20% and is used in weapons or naval submarines.\n\nIn other words, if conventional reactor uranium is Miller Lite, and highly enriched uranium is Everclear grain alcohol, HALEU is the nice cool glass of Belgian beer that strikes the balance between two extremes, said Dan Leistikow, vice president of corporate communications at US-based uranium enrichment company Centrus Energy.\n\n“You can get more energy in smaller spaces,” said Josh Jarrell, director of the Idaho National Laboratories fuel cycle science and technology division. “You can be more energy dense, you can make more effective fuel, theoretically, we could generate electricity more economically.”\n\nCentrus is one of two enrichment companies in the US working to break America of its dependence on Russia, which supplies the vast amount of the world’s enriched uranium. Congress recently passed an import ban on Russian uranium, leading to a supply squeeze both for HALEU and fuel for conventional reactors.\n\nIdaho National Labs is also working to convert warhead uranium into reactor fuel.\nIdaho National Labs is also working to convert warhead uranium into reactor fuel. Idaho National Labs\nAfter a “lack of investment over decades,” Centrus is aiming to “restore a domestic enrichment capability with US technology” to meet the demand for the country’s electricity and for its national security, Leistikow told CNN.\n\nIt will take years to get there.\n\nThe Energy Department estimates the advanced nuclear industry will need 40 tons of HALEU by 2030. Centrus is seeking funding from DOE to expand its operations, but it can currently enrich a little less than 1 ton per year.\n\nWhat will the country’s leftover nuclear arsenal contribute? Six tons by 2027.\n\nTerraPower’s Navin said six tons is a “great start,” but far from enough for his company’s first core load, let alone other advanced nuclear projects in the US.\n\nExactly how much highly enriched uranium the US has is a classified secret, and there are a lot of interests competing for it, from national security to research nuclear reactors.\n\nBut Congress recently directed the NNSA and Energy Department to prioritize converting America’s old nuclear arsenal for advanced reactor fuel.\n\n“Within their possession, they have more than enough (highly enriched uranium) to make many, many, many tons of HALEU,” Navin said.\n\nThis story has been updated with additional information."
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "String"
+    }
+  },
+  "2": {
+    "inputs": {
+      "input_string": [
+        "1",
+        0
+      ],
+      "STRING": "",
+      "max_subtasks": 3,
+      "config": [
+        "5",
+        0
+      ],
+      "rulesets": [
+        "3",
+        0
+      ]
+    },
+    "class_type": "Griptape Create: Agent",
+    "_meta": {
+      "title": "Griptape Create: Agent"
+    }
+  },
+  "3": {
+    "inputs": {
+      "name": "My rules",
+      "rules": "Analyze the text and extract the main title, the author, the important facts, and the opposing forces at play. Discard extra text that has no relevance to the story"
+    },
+    "class_type": "Griptape Create: Rules",
+    "_meta": {
+      "title": "Griptape Create: Rules"
+    }
+  },
+  "4": {
+    "inputs": {
+      "INPUT": [
+        "2",
+        0
+      ],
+      "STRING": "**Main Title:** US Dismantles Nuclear Warheads to Power Next Generation of Reactors\n**Author:** Ella Nilsen, CNN\n\n**Important Facts:**\n\n1. The US is dismantling nuclear warheads to produce fuel for the next generation of reactors.\n2. The fuel, called HALEU (high assay low-enriched uranium), is being produced from enriched uranium made in part from old nuclear warheads.\n3. The production of HALEU will power small, modular power stations that are easier and cheaper to build than traditional large nuclear power plants.\n4. The US has a bipartisan law that restricts the importation of Russian-enriched uranium, leading to a scramble for domestic production.\n5. The Energy Department estimates that advanced nuclear industry will need 40 tons of HALEU by 2030.\n\n**Opposing Forces at Play:**\n\n1. **National Security vs. Economic Interests:** The US government is prioritizing the conversion of its old nuclear arsenal for advanced reactor fuel, while also considering economic interests and national security concerns.\n2. **Domestic Production vs. Importation:** The US is racing to produce HALEU domestically, while also dealing with a supply squeeze due to an import ban on Russian uranium.\n3. **Environmental Concerns vs. Energy Security:** The nuclear power industry is pushing for increased use of nuclear energy as a reliable and clean source of electricity, but this comes at the cost of environmental concerns and potential nuclear waste disposal issues.\n\n**Key Players:**\n\n1. **Jeff Chamberlin:** Acting principal assistant deputy administrator for defense nuclear nonproliferation.\n2. **Josh Jarrell:** Director of the Idaho National Laboratories fuel cycle science and technology division.\n3. **Dan Leistikow:** Vice president of corporate communications at Centrus Energy.\n4. **Jeff Navin:** Director of TerraPower.\n\nNote: The article does not provide a clear \"winner\" or \"loser\" in this scenario, as it highlights the complexities and trade-offs involved in the US's transition to HALEU-powered reactors."
+    },
+    "class_type": "Griptape Display: Text",
+    "_meta": {
+      "title": "Griptape Display: Text"
+    }
+  },
+  "5": {
+    "inputs": {
+      "base_url": "http://127.0.0.1",
+      "port": "11434",
+      "model": "llama3.2:latest",
+      "max_attempts_on_fail": 2,
+      "temperature": 0.1,
+      "seed": 2048,
+      "use_native_tools": true,
+      "max_tokens": -1,
+      "keep_alive": 1,
+      "embedding_model": "",
+      "Download Ollama": ""
+    },
+    "class_type": "Griptape Agent Config: Ollama Drivers",
+    "_meta": {
+      "title": "Griptape Agent Config: Ollama Drivers"
+    }
+  }
+}
