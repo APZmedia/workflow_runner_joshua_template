@@ -1,0 +1,1191 @@
+{
+  "last_node_id": 250,
+  "last_link_id": 233,
+  "nodes": [
+    {
+      "id": 16,
+      "type": "Griptape Create: Agent",
+      "pos": [
+        -689.0426635742188,
+        1406.0142822265625
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "agent",
+          "type": "AGENT",
+          "link": null,
+          "label": "agent",
+          "shape": 7
+        },
+        {
+          "name": "config",
+          "type": "CONFIG",
+          "link": 230,
+          "label": "config",
+          "shape": 7
+        },
+        {
+          "name": "tools",
+          "type": "TOOL_LIST",
+          "link": null,
+          "label": "tools",
+          "shape": 7
+        },
+        {
+          "name": "rulesets",
+          "type": "RULESET",
+          "link": 15,
+          "label": "rulesets",
+          "shape": 7
+        },
+        {
+          "name": "input_string",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "input_string"
+          },
+          "label": "input_string"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "OUTPUT",
+          "type": "STRING",
+          "links": null,
+          "slot_index": 0,
+          "shape": 3,
+          "label": "OUTPUT"
+        },
+        {
+          "name": "AGENT",
+          "type": "AGENT",
+          "links": [
+            14
+          ],
+          "slot_index": 1,
+          "shape": 3,
+          "label": "AGENT"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Create: Agent"
+      },
+      "widgets_values": [
+        "",
+        "",
+        3,
+        [
+          false,
+          true
+        ]
+      ]
+    },
+    {
+      "id": 23,
+      "type": "Griptape Create: Agent",
+      "pos": [
+        -680.042236328125,
+        2397.071533203125
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "agent",
+          "type": "AGENT",
+          "link": null,
+          "label": "agent",
+          "shape": 7
+        },
+        {
+          "name": "config",
+          "type": "CONFIG",
+          "link": 232,
+          "label": "config",
+          "shape": 7
+        },
+        {
+          "name": "tools",
+          "type": "TOOL_LIST",
+          "link": null,
+          "label": "tools",
+          "shape": 7
+        },
+        {
+          "name": "rulesets",
+          "type": "RULESET",
+          "link": 18,
+          "label": "rulesets",
+          "shape": 7
+        },
+        {
+          "name": "input_string",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "input_string"
+          },
+          "label": "input_string"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "OUTPUT",
+          "type": "STRING",
+          "links": null,
+          "slot_index": 0,
+          "shape": 3,
+          "label": "OUTPUT"
+        },
+        {
+          "name": "AGENT",
+          "type": "AGENT",
+          "links": [
+            19
+          ],
+          "slot_index": 1,
+          "shape": 3,
+          "label": "AGENT"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Create: Agent"
+      },
+      "widgets_values": [
+        "",
+        "",
+        3,
+        [
+          false,
+          true
+        ]
+      ]
+    },
+    {
+      "id": 19,
+      "type": "Griptape Create: Agent",
+      "pos": [
+        -665,
+        1904
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "agent",
+          "type": "AGENT",
+          "link": null,
+          "label": "agent",
+          "shape": 7
+        },
+        {
+          "name": "config",
+          "type": "CONFIG",
+          "link": 231,
+          "label": "config",
+          "shape": 7
+        },
+        {
+          "name": "tools",
+          "type": "TOOL_LIST",
+          "link": null,
+          "label": "tools",
+          "shape": 7
+        },
+        {
+          "name": "rulesets",
+          "type": "RULESET",
+          "link": 16,
+          "label": "rulesets",
+          "shape": 7
+        },
+        {
+          "name": "input_string",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "input_string"
+          },
+          "label": "input_string"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "OUTPUT",
+          "type": "STRING",
+          "links": null,
+          "slot_index": 0,
+          "shape": 3,
+          "label": "OUTPUT"
+        },
+        {
+          "name": "AGENT",
+          "type": "AGENT",
+          "links": [
+            17
+          ],
+          "slot_index": 1,
+          "shape": 3,
+          "label": "AGENT"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Create: Agent"
+      },
+      "widgets_values": [
+        "",
+        "",
+        3,
+        [
+          false,
+          true
+        ]
+      ]
+    },
+    {
+      "id": 17,
+      "type": "Griptape Create: Rules",
+      "pos": [
+        -1373.0426025390625,
+        1408.0142822265625
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "RULES",
+          "type": "RULESET",
+          "links": [
+            15
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "RULES"
+        },
+        {
+          "name": "NAME",
+          "type": "STRING",
+          "links": null,
+          "shape": 3,
+          "label": "NAME"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Create: Rules"
+      },
+      "widgets_values": [
+        "Copywriter Ruleset",
+        "You are an expert copywriter. \nAdopt an authoritative, innovative, and engaging tone of voice, ensuring the content is clear, concise, and sophisticated yet approachable. Write with confidence and deep knowledge, reflecting Asimov Media's reputation as a trusted source in technology, science, and culture. Employ a narrative-driven writing style, structuring text with compelling beginnings and titles, detailed developments, and satisfying conclusions. Use storytelling techniques, analogies, and metaphors to make complex subjects relatable and understandable. Maintain thoroughness and depth, providing well-researched and comprehensive insights backed by facts and expert opinions. Be vivid and descriptive, painting a picture of the subject matter to create an immersive reading experience. Integrate multimedia elements like images, videos, and infographics within the text to enhance understanding and engagement. Include critical analysis and thoughtful commentary on the broader implications of technological and scientific advancements, exploring their impact on society, ethics, and culture. Ensure the writing is both informative and captivating, appealing to a highly educated, tech-savvy audience.",
+        true
+      ]
+    },
+    {
+      "id": 18,
+      "type": "Griptape Convert: Agent to Tool",
+      "pos": [
+        -123,
+        1923
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "agent",
+          "type": "AGENT",
+          "link": 17,
+          "label": "agent",
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "TOOL",
+          "type": "TOOL_LIST",
+          "links": [
+            23
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "TOOL"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Convert: Agent to Tool"
+      },
+      "widgets_values": [
+        false,
+        "Scientific Journalist",
+        "Scientific accuracy of the text"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "Griptape Convert: Agent to Tool",
+      "pos": [
+        -149.04263305664062,
+        1396.0142822265625
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "agent",
+          "type": "AGENT",
+          "link": 14,
+          "label": "agent",
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "TOOL",
+          "type": "TOOL_LIST",
+          "links": [
+            11
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "TOOL"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Convert: Agent to Tool"
+      },
+      "widgets_values": [
+        false,
+        "Copywriter",
+        "Style and tone of voice, methaphors"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "Griptape Convert: Agent to Tool",
+      "pos": [
+        -104.04226684570312,
+        2388.071533203125
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "agent",
+          "type": "AGENT",
+          "link": 19,
+          "label": "agent",
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "TOOL",
+          "type": "TOOL_LIST",
+          "links": [
+            24
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "TOOL"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Convert: Agent to Tool"
+      },
+      "widgets_values": [
+        false,
+        "Content Strategist",
+        "Storytelling structure, engagement"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "Griptape Combine: Tool List",
+      "pos": [
+        804,
+        1578
+      ],
+      "size": [
+        226.8000030517578,
+        86
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "tool_1",
+          "type": "TOOL_LIST",
+          "link": 11,
+          "label": "tool_1",
+          "shape": 7
+        },
+        {
+          "name": "tool_2",
+          "type": "TOOL_LIST",
+          "link": 23,
+          "label": "tool_2"
+        },
+        {
+          "name": "tool_3",
+          "type": "TOOL_LIST",
+          "link": 24,
+          "label": "tool_3"
+        },
+        {
+          "name": "tool_4",
+          "type": "TOOL_LIST",
+          "link": null,
+          "label": "tool_4"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "TOOL_LIST",
+          "type": "TOOL_LIST",
+          "links": [
+            12
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "TOOL_LIST"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Combine: Tool List"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 22,
+      "type": "Griptape Create: Rules",
+      "pos": [
+        -1318.0821533203125,
+        2389.14111328125
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "RULES",
+          "type": "RULESET",
+          "links": [
+            18
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "RULES"
+        },
+        {
+          "name": "NAME",
+          "type": "STRING",
+          "links": null,
+          "shape": 3,
+          "label": "NAME"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Create: Rules"
+      },
+      "widgets_values": [
+        "Content Strategist Ruleset",
+        "You are an expert content strategist.\nYou have to supervise and correct the relevance of copy for Asimov Media's carousels\nAsimov Media's target audience comprises highly educated, tech-savvy individuals aged 25 to 45, predominantly male but with a growing female readership. These readers are professionals and industry leaders with middle to upper-middle income levels, often holding advanced degrees in technology, engineering, science, or business. They are passionate about the latest advancements in technology and gadgets, early adopters of new digital tools, and innovative thinkers who seek out in-depth, well-researched articles that challenge conventional thinking and explore the future. This intellectually curious audience values content that delves into complex topics like science, culture, and their intersection, appreciating insights into how technology impacts society and culture. Comfortable with digital media, they engage with Asimov Media’s content across multiple channels, participate in online discussions, and frequently share interesting articles within their networks. Their interests span technology, science, business, culture, and future trends, and they rely on Asimov Media to stay informed about industry innovations and their societal implications.\nThe carrousel structure is made of a title and subtitle cover, a first slide with full text, a second slide with half page text, and a third slide with half page text",
+        true
+      ]
+    },
+    {
+      "id": 20,
+      "type": "Griptape Create: Rules",
+      "pos": [
+        -1359,
+        1924
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "RULES",
+          "type": "RULESET",
+          "links": [
+            16
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "RULES"
+        },
+        {
+          "name": "NAME",
+          "type": "STRING",
+          "links": null,
+          "shape": 3,
+          "label": "NAME"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Create: Rules"
+      },
+      "widgets_values": [
+        "Scientific Journalist Ruleset",
+        "You identify as an expert scientific journalist, specialized in sustainability.\nYou make the topics accessible and engaging to readers who may not have a scientific background. ",
+        true
+      ]
+    },
+    {
+      "id": 71,
+      "type": "Note",
+      "pos": [
+        4231,
+        1509
+      ],
+      "size": [
+        434.85394287109375,
+        202.37440490722656
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "Qua dovremmo fare un POST al nostro manager."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 248,
+      "type": "Text Multiline",
+      "pos": [
+        276.6950988769531,
+        948.1419067382812
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            222
+          ],
+          "label": "STRING",
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Text Multiline"
+      },
+      "widgets_values": [
+        "\nName of the publisher: The Guardian\nTitle of the article: Global warming of oceans equivalent to an atomic bomb per second\nPublished date: January 7, 2019\nAuthor: The author is not mentioned in the text.\nSummarized content of the article: The article discusses a study that found that global warming has heated the oceans by the equivalent of one atomic bomb explosion per second for the past 150 years. More than 90% of the heat trapped by humanity’s greenhouse gas emissions has been absorbed by the seas. The vast amount of energy being added to the oceans drives sea-level rise and enables hurricanes and typhoons to become more intense. The research has been published in the journal Proceedings of the National Academy of Sciences.",
+        [
+          false,
+          true
+        ]
+      ]
+    },
+    {
+      "id": 14,
+      "type": "Griptape Create: Rules",
+      "pos": [
+        1185.4442138671875,
+        1861.111083984375
+      ],
+      "size": [
+        427.8330993652344,
+        390.9164733886719
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "RULES",
+          "type": "RULESET",
+          "links": [
+            13
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "RULES"
+        },
+        {
+          "name": "NAME",
+          "type": "STRING",
+          "links": null,
+          "shape": 3,
+          "label": "NAME"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Create: Rules"
+      },
+      "widgets_values": [
+        "Agent rules",
+        "Based on a news article, extract the main facts and title, and create all the text for a carousel structured this way:\n\nHashtag: One topic hashtag\n\n\nTitle: an engaging, sharp title of no more than 9 words.\n\nSubtitle: A two line, no more than 18 words subtitle presenting the issue.\n\nText01: a presentation of the main issue of the topic in one paragraph of no more that 45 words\n\nText02: A second paragraph developing the issue with no more than 25 words\n\nText03: A thought provoking conclusion in a short paragraph of no more than 25 words.\n\n\n\nYou have access to experts in their respective fields.\nWork with the experts to get the results you need. Make the content strategist define an angle for the story and a structure, the scientific journalist to write a draft, make the copywriter refine it with the correct tone of voice.\nOutput only the final json structure.\nThis is the JSON structure that you have to fill.\n{\n  \"Title\": \"\",\n  \"Subtitle\": \"\",\n  \"Text01\": \"\",\n  \"Text02\": \"\",\n  \"Text03\": \"\",\n  \"Hashtag\": \"\"\n}\n\n\nDo not wrap in markdown context.\n\n",
+        true
+      ]
+    },
+    {
+      "id": 15,
+      "type": "Griptape Create: Agent",
+      "pos": [
+        1194,
+        1417
+      ],
+      "size": [
+        410.8408508300781,
+        349.8560485839844
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "agent",
+          "type": "AGENT",
+          "link": null,
+          "label": "agent",
+          "shape": 7
+        },
+        {
+          "name": "config",
+          "type": "CONFIG",
+          "link": null,
+          "label": "config",
+          "shape": 7
+        },
+        {
+          "name": "tools",
+          "type": "TOOL_LIST",
+          "link": 12,
+          "label": "tools",
+          "shape": 7
+        },
+        {
+          "name": "rulesets",
+          "type": "RULESET",
+          "link": 13,
+          "label": "rulesets",
+          "shape": 7
+        },
+        {
+          "name": "input_string",
+          "type": "STRING",
+          "link": 222,
+          "widget": {
+            "name": "input_string"
+          },
+          "label": "input_string"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "OUTPUT",
+          "type": "STRING",
+          "links": [
+            25
+          ],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "OUTPUT"
+        },
+        {
+          "name": "AGENT",
+          "type": "AGENT",
+          "links": null,
+          "shape": 3,
+          "label": "AGENT",
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Create: Agent"
+      },
+      "widgets_values": [
+        "",
+        "",
+        6,
+        [
+          false,
+          true
+        ]
+      ]
+    },
+    {
+      "id": 25,
+      "type": "Griptape Display: Text",
+      "pos": [
+        1854.8509521484375,
+        1493.28662109375
+      ],
+      "size": [
+        423.293701171875,
+        566.6804809570312
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "INPUT",
+          "type": "STRING",
+          "link": 25,
+          "widget": {
+            "name": "INPUT"
+          },
+          "label": "INPUT"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "OUTPUT",
+          "type": "STRING",
+          "links": [],
+          "slot_index": 0,
+          "shape": 3,
+          "label": "OUTPUT"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Display: Text"
+      },
+      "widgets_values": [
+        "",
+        "{\n  \"Title\": \"The Ocean's Fury\",\n  \"Subtitle\": \"Oceans absorb 90% of emissions, fueling extreme weather.\",\n  \"Text01\": \"The ocean's surface temperature has surged by 0.5°C over the past century, equivalent to a nuclear explosion every second. This alarming trend is a harbinger of more frequent and intense natural disasters.\",\n  \"Text02\": \"A study reveals oceans' accelerating heat absorption, impacting weather patterns and marine ecosystems.\",\n  \"Text03\": \"Our oceans are on fire. It's time to act against climate change for a sustainable future.\",\n  \"Hashtag\": \"#OceanWarming\"\n}",
+        [
+          false,
+          true
+        ]
+      ]
+    },
+    {
+      "id": 249,
+      "type": "Griptape Agent Config: OpenAI Drivers",
+      "pos": [
+        -2178.80419921875,
+        1358.6778564453125
+      ],
+      "size": [
+        310.79998779296875,
+        563
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CONFIG",
+          "type": "CONFIG",
+          "links": [
+            229
+          ],
+          "label": "CONFIG",
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Agent Config: OpenAI Drivers"
+      },
+      "widgets_values": [
+        "Prompt Driver",
+        "gpt-4o-mini",
+        2,
+        0.1,
+        2048,
+        "fixed",
+        true,
+        -1,
+        "default",
+        "OPENAI_API_KEY",
+        "Image Generation Driver",
+        "dall-e-3",
+        "1024x1024",
+        "Embedding Driver",
+        "text-embedding-3-large",
+        "Text To Speech Driver",
+        "tts-1",
+        "alloy",
+        "Audio Transcription Driver",
+        "whisper-1",
+        null
+      ]
+    },
+    {
+      "id": 246,
+      "type": "Griptape Agent Config: Ollama Drivers",
+      "pos": [
+        -2178.875732421875,
+        2004.7877197265625
+      ],
+      "size": [
+        310.79998779296875,
+        380
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CONFIG",
+          "type": "CONFIG",
+          "links": [
+            233
+          ],
+          "label": "CONFIG",
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Griptape Agent Config: Ollama Drivers"
+      },
+      "widgets_values": [
+        "http://127.0.0.1",
+        "11434",
+        "Prompt Driver",
+        "llama3.2:latest",
+        2,
+        0.1,
+        2048,
+        "fixed",
+        true,
+        -1,
+        240,
+        "Embedding Driver",
+        "nomic-embed-text:latest",
+        null
+      ]
+    },
+    {
+      "id": 250,
+      "type": "ImpactSwitch",
+      "pos": [
+        -1784.93701171875,
+        1767.376220703125
+      ],
+      "size": [
+        210,
+        122
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "input1",
+          "type": "CONFIG",
+          "link": 229,
+          "shape": 7,
+          "label": "input1"
+        },
+        {
+          "name": "input2",
+          "type": "CONFIG",
+          "link": 233
+        },
+        {
+          "name": "input3",
+          "type": "CONFIG",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONFIG",
+          "type": "CONFIG",
+          "links": [
+            230,
+            231,
+            232
+          ],
+          "label": "CONFIG"
+        },
+        {
+          "name": "selected_label",
+          "type": "STRING",
+          "links": null,
+          "label": "selected_label"
+        },
+        {
+          "name": "selected_index",
+          "type": "INT",
+          "links": null,
+          "label": "selected_index"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImpactSwitch"
+      },
+      "widgets_values": [
+        2,
+        false
+      ]
+    }
+  ],
+  "links": [
+    [
+      11,
+      12,
+      0,
+      13,
+      0,
+      "TOOL_LIST"
+    ],
+    [
+      12,
+      13,
+      0,
+      15,
+      2,
+      "TOOL_LIST"
+    ],
+    [
+      13,
+      14,
+      0,
+      15,
+      3,
+      "RULESET"
+    ],
+    [
+      14,
+      16,
+      1,
+      12,
+      0,
+      "AGENT"
+    ],
+    [
+      15,
+      17,
+      0,
+      16,
+      3,
+      "RULESET"
+    ],
+    [
+      16,
+      20,
+      0,
+      19,
+      3,
+      "RULESET"
+    ],
+    [
+      17,
+      19,
+      1,
+      18,
+      0,
+      "AGENT"
+    ],
+    [
+      18,
+      22,
+      0,
+      23,
+      3,
+      "RULESET"
+    ],
+    [
+      19,
+      23,
+      1,
+      24,
+      0,
+      "AGENT"
+    ],
+    [
+      23,
+      18,
+      0,
+      13,
+      1,
+      "TOOL_LIST"
+    ],
+    [
+      24,
+      24,
+      0,
+      13,
+      2,
+      "TOOL_LIST"
+    ],
+    [
+      25,
+      15,
+      0,
+      25,
+      0,
+      "STRING"
+    ],
+    [
+      222,
+      248,
+      0,
+      15,
+      4,
+      "STRING"
+    ],
+    [
+      229,
+      249,
+      0,
+      250,
+      0,
+      "*"
+    ],
+    [
+      230,
+      250,
+      0,
+      16,
+      1,
+      "CONFIG"
+    ],
+    [
+      231,
+      250,
+      0,
+      19,
+      1,
+      "CONFIG"
+    ],
+    [
+      232,
+      250,
+      0,
+      23,
+      1,
+      "CONFIG"
+    ],
+    [
+      233,
+      246,
+      0,
+      250,
+      1,
+      "CONFIG"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "Content Strategist",
+      "bounding": [
+        -1433,
+        2251,
+        1979,
+        428
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "Scientific Journalist",
+      "bounding": [
+        -1425,
+        1802,
+        1971,
+        425
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "Copywriter",
+      "bounding": [
+        -1418,
+        1264,
+        1969,
+        511
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.4500000000000124,
+      "offset": [
+        3658.903533812777,
+        -543.5659906156201
+      ]
+    },
+    "node_versions": {
+      "ComfyUI-Griptape": "c298a83475434397f93b86db9edab031c6c2ffd7",
+      "was-node-suite-comfyui": "056badacda52e88d29d6a65f9509cd3115ace0f2",
+      "ComfyUI-Impact-Pack": "869ac6fd1f1b849f3561f412535f0a59a24891c2"
+    },
+    "ue_links": [],
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0
+  },
+  "version": 0.4
+}

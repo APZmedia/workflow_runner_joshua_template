@@ -1,0 +1,269 @@
+{
+  "12": {
+    "inputs": {
+      "off_prompt": false,
+      "name": "Copywriter",
+      "description": "Style and tone of voice, methaphors",
+      "agent": [
+        "16",
+        1
+      ]
+    },
+    "class_type": "Griptape Convert: Agent to Tool",
+    "_meta": {
+      "title": "Griptape Convert: Agent to Tool"
+    }
+  },
+  "13": {
+    "inputs": {
+      "tool_1": [
+        "12",
+        0
+      ],
+      "tool_2": [
+        "18",
+        0
+      ],
+      "tool_3": [
+        "24",
+        0
+      ]
+    },
+    "class_type": "Griptape Combine: Tool List",
+    "_meta": {
+      "title": "Griptape Combine: Tool List"
+    }
+  },
+  "14": {
+    "inputs": {
+      "name": "Agent rules",
+      "rules": "Based on a news article, extract the main facts and title, and create all the text for a carousel structured this way:\n\nHashtag: One topic hashtag\n\n\nTitle: an engaging, sharp title of no more than 9 words.\n\nSubtitle: A two line, no more than 18 words subtitle presenting the issue.\n\nText01: a presentation of the main issue of the topic in one paragraph of no more that 45 words\n\nText02: A second paragraph developing the issue with no more than 25 words\n\nText03: A thought provoking conclusion in a short paragraph of no more than 25 words.\n\n\n\nYou have access to experts in their respective fields.\nWork with the experts to get the results you need. Make the content strategist define an angle for the story and a structure, the scientific journalist to write a draft, make the copywriter refine it with the correct tone of voice.\nOutput only the final json structure.\nThis is the JSON structure that you have to fill.\n{\n  \"Title\": \"\",\n  \"Subtitle\": \"\",\n  \"Text01\": \"\",\n  \"Text02\": \"\",\n  \"Text03\": \"\",\n  \"Hashtag\": \"\"\n}\n\n\nDo not wrap in markdown context.\n\n",
+      "speak_and_recognation": true
+    },
+    "class_type": "Griptape Create: Rules",
+    "_meta": {
+      "title": "Griptape Create: Rules"
+    }
+  },
+  "15": {
+    "inputs": {
+      "input_string": [
+        "248",
+        0
+      ],
+      "STRING": "",
+      "max_subtasks": 6,
+      "tools": [
+        "13",
+        0
+      ],
+      "rulesets": [
+        "14",
+        0
+      ]
+    },
+    "class_type": "Griptape Create: Agent",
+    "_meta": {
+      "title": "Griptape Create: Agent"
+    }
+  },
+  "16": {
+    "inputs": {
+      "STRING": "",
+      "max_subtasks": 3,
+      "config": [
+        "250",
+        0
+      ],
+      "rulesets": [
+        "17",
+        0
+      ]
+    },
+    "class_type": "Griptape Create: Agent",
+    "_meta": {
+      "title": "Griptape Create: Agent"
+    }
+  },
+  "17": {
+    "inputs": {
+      "name": "Copywriter Ruleset",
+      "rules": "You are an expert copywriter. \nAdopt an authoritative, innovative, and engaging tone of voice, ensuring the content is clear, concise, and sophisticated yet approachable. Write with confidence and deep knowledge, reflecting Asimov Media's reputation as a trusted source in technology, science, and culture. Employ a narrative-driven writing style, structuring text with compelling beginnings and titles, detailed developments, and satisfying conclusions. Use storytelling techniques, analogies, and metaphors to make complex subjects relatable and understandable. Maintain thoroughness and depth, providing well-researched and comprehensive insights backed by facts and expert opinions. Be vivid and descriptive, painting a picture of the subject matter to create an immersive reading experience. Integrate multimedia elements like images, videos, and infographics within the text to enhance understanding and engagement. Include critical analysis and thoughtful commentary on the broader implications of technological and scientific advancements, exploring their impact on society, ethics, and culture. Ensure the writing is both informative and captivating, appealing to a highly educated, tech-savvy audience.",
+      "speak_and_recognation": true
+    },
+    "class_type": "Griptape Create: Rules",
+    "_meta": {
+      "title": "Griptape Create: Rules"
+    }
+  },
+  "18": {
+    "inputs": {
+      "off_prompt": false,
+      "name": "Scientific Journalist",
+      "description": "Scientific accuracy of the text",
+      "agent": [
+        "19",
+        1
+      ]
+    },
+    "class_type": "Griptape Convert: Agent to Tool",
+    "_meta": {
+      "title": "Griptape Convert: Agent to Tool"
+    }
+  },
+  "19": {
+    "inputs": {
+      "STRING": "",
+      "max_subtasks": 3,
+      "config": [
+        "250",
+        0
+      ],
+      "rulesets": [
+        "20",
+        0
+      ]
+    },
+    "class_type": "Griptape Create: Agent",
+    "_meta": {
+      "title": "Griptape Create: Agent"
+    }
+  },
+  "20": {
+    "inputs": {
+      "name": "Scientific Journalist Ruleset",
+      "rules": "You identify as an expert scientific journalist, specialized in sustainability.\nYou make the topics accessible and engaging to readers who may not have a scientific background. ",
+      "speak_and_recognation": true
+    },
+    "class_type": "Griptape Create: Rules",
+    "_meta": {
+      "title": "Griptape Create: Rules"
+    }
+  },
+  "22": {
+    "inputs": {
+      "name": "Content Strategist Ruleset",
+      "rules": "You are an expert content strategist.\nYou have to supervise and correct the relevance of copy for Asimov Media's carousels\nAsimov Media's target audience comprises highly educated, tech-savvy individuals aged 25 to 45, predominantly male but with a growing female readership. These readers are professionals and industry leaders with middle to upper-middle income levels, often holding advanced degrees in technology, engineering, science, or business. They are passionate about the latest advancements in technology and gadgets, early adopters of new digital tools, and innovative thinkers who seek out in-depth, well-researched articles that challenge conventional thinking and explore the future. This intellectually curious audience values content that delves into complex topics like science, culture, and their intersection, appreciating insights into how technology impacts society and culture. Comfortable with digital media, they engage with Asimov Media’s content across multiple channels, participate in online discussions, and frequently share interesting articles within their networks. Their interests span technology, science, business, culture, and future trends, and they rely on Asimov Media to stay informed about industry innovations and their societal implications.\nThe carrousel structure is made of a title and subtitle cover, a first slide with full text, a second slide with half page text, and a third slide with half page text",
+      "speak_and_recognation": true
+    },
+    "class_type": "Griptape Create: Rules",
+    "_meta": {
+      "title": "Griptape Create: Rules"
+    }
+  },
+  "23": {
+    "inputs": {
+      "STRING": "",
+      "max_subtasks": 3,
+      "config": [
+        "250",
+        0
+      ],
+      "rulesets": [
+        "22",
+        0
+      ]
+    },
+    "class_type": "Griptape Create: Agent",
+    "_meta": {
+      "title": "Griptape Create: Agent"
+    }
+  },
+  "24": {
+    "inputs": {
+      "off_prompt": false,
+      "name": "Content Strategist",
+      "description": "Storytelling structure, engagement",
+      "agent": [
+        "23",
+        1
+      ]
+    },
+    "class_type": "Griptape Convert: Agent to Tool",
+    "_meta": {
+      "title": "Griptape Convert: Agent to Tool"
+    }
+  },
+  "25": {
+    "inputs": {
+      "INPUT": [
+        "15",
+        0
+      ],
+      "STRING": "{\n  \"Title\": \"The Ocean's Fury\",\n  \"Subtitle\": \"Oceans absorb 90% of emissions, fueling extreme weather.\",\n  \"Text01\": \"The ocean's surface temperature has surged by 0.5°C over the past century, equivalent to a nuclear explosion every second. This alarming trend is a harbinger of more frequent and intense natural disasters.\",\n  \"Text02\": \"A study reveals oceans' accelerating heat absorption, impacting weather patterns and marine ecosystems.\",\n  \"Text03\": \"Our oceans are on fire. It's time to act against climate change for a sustainable future.\",\n  \"Hashtag\": \"#OceanWarming\"\n}"
+    },
+    "class_type": "Griptape Display: Text",
+    "_meta": {
+      "title": "Griptape Display: Text"
+    }
+  },
+  "246": {
+    "inputs": {
+      "base_url": "http://127.0.0.1",
+      "port": "11434",
+      "model": "llama3.2:latest",
+      "max_attempts_on_fail": 2,
+      "temperature": 0.1,
+      "seed": 2048,
+      "use_native_tools": true,
+      "max_tokens": -1,
+      "keep_alive": 240,
+      "embedding_model": "nomic-embed-text:latest",
+      "Download Ollama": null
+    },
+    "class_type": "Griptape Agent Config: Ollama Drivers",
+    "_meta": {
+      "title": "Griptape Agent Config: Ollama Drivers"
+    }
+  },
+  "248": {
+    "inputs": {
+      "text": "\nName of the publisher: The Guardian\nTitle of the article: Global warming of oceans equivalent to an atomic bomb per second\nPublished date: January 7, 2019\nAuthor: The author is not mentioned in the text.\nSummarized content of the article: The article discusses a study that found that global warming has heated the oceans by the equivalent of one atomic bomb explosion per second for the past 150 years. More than 90% of the heat trapped by humanity’s greenhouse gas emissions has been absorbed by the seas. The vast amount of energy being added to the oceans drives sea-level rise and enables hurricanes and typhoons to become more intense. The research has been published in the journal Proceedings of the National Academy of Sciences."
+    },
+    "class_type": "Text Multiline",
+    "_meta": {
+      "title": "Text Multiline"
+    }
+  },
+  "249": {
+    "inputs": {
+      "model": "gpt-4o-mini",
+      "max_attempts_on_fail": 2,
+      "temperature": 0.1,
+      "seed": 2048,
+      "use_native_tools": true,
+      "max_tokens": -1,
+      "response_format": "default",
+      "api_key_env_var": "OPENAI_API_KEY",
+      "image_generation_model": "dall-e-3",
+      "size": "1024x1024",
+      "embedding_model": "text-embedding-3-large",
+      "text_to_speech_model": "tts-1",
+      "voice": "alloy",
+      "audio_transcription_model": "whisper-1",
+      "Get OpenAI API Key": null
+    },
+    "class_type": "Griptape Agent Config: OpenAI Drivers",
+    "_meta": {
+      "title": "Griptape Agent Config: OpenAI Drivers"
+    }
+  },
+  "250": {
+    "inputs": {
+      "select": 2,
+      "sel_mode": false,
+      "input1": [
+        "249",
+        0
+      ],
+      "input2": [
+        "246",
+        0
+      ]
+    },
+    "class_type": "ImpactSwitch",
+    "_meta": {
+      "title": "Switch (Any)"
+    }
+  }
+}
