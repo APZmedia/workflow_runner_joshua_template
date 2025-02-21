@@ -1,0 +1,2536 @@
+{
+  "9": {
+    "inputs": {
+      "blend_factor": 1,
+      "blend_mode": "multiply",
+      "image1": [
+        "168",
+        0
+      ],
+      "image2": [
+        "22",
+        0
+      ]
+    },
+    "class_type": "Blend",
+    "_meta": {
+      "title": "Blend"
+    }
+  },
+  "11": {
+    "inputs": {
+      "images": [
+        "9",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "15": {
+    "inputs": {
+      "images": [
+        "299",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "22": {
+    "inputs": {
+      "width": 1080,
+      "height": 1352,
+      "position": "center",
+      "x_offset": 0,
+      "y_offset": 0,
+      "image": [
+        "578",
+        0
+      ]
+    },
+    "class_type": "ImageCrop+",
+    "_meta": {
+      "title": "🔧 Image Crop"
+    }
+  },
+  "38": {
+    "inputs": {
+      "images": [
+        "298",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "45": {
+    "inputs": {
+      "images": [
+        "297",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "52": {
+    "inputs": {
+      "images": [
+        "296",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "59": {
+    "inputs": {
+      "images": [
+        "302",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "73": {
+    "inputs": {
+      "width": [
+        "102",
+        0
+      ],
+      "height": [
+        "103",
+        0
+      ],
+      "start_color": "custom",
+      "end_color": "custom",
+      "gradient_distance": 0.5,
+      "linear_transition": 0.21,
+      "orientation": "horizontal",
+      "start_color_hex": [
+        "81",
+        0
+      ],
+      "end_color_hex": [
+        "74",
+        0
+      ]
+    },
+    "class_type": "CR Color Gradient",
+    "_meta": {
+      "title": "🟨 CR Color Gradient"
+    }
+  },
+  "74": {
+    "inputs": {
+      "String": "#edd690"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "String"
+    }
+  },
+  "75": {
+    "inputs": {
+      "String": "#955b47"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "String"
+    }
+  },
+  "76": {
+    "inputs": {
+      "String": "#A0F9F9"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "String"
+    }
+  },
+  "81": {
+    "inputs": {
+      "String": "#FFFFFF"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "String"
+    }
+  },
+  "88": {
+    "inputs": {
+      "String": "1080"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "String"
+    }
+  },
+  "91": {
+    "inputs": {
+      "String": "1350"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "String"
+    }
+  },
+  "102": {
+    "inputs": {
+      "text": [
+        "88",
+        0
+      ],
+      "round_integer": "round"
+    },
+    "class_type": "CR String To Number",
+    "_meta": {
+      "title": "🔧 CR String To Number"
+    }
+  },
+  "103": {
+    "inputs": {
+      "text": [
+        "91",
+        0
+      ],
+      "round_integer": "round"
+    },
+    "class_type": "CR String To Number",
+    "_meta": {
+      "title": "🔧 CR String To Number"
+    }
+  },
+  "129": {
+    "inputs": {
+      "text": "Cos’è 4Agri?"
+    },
+    "class_type": "Text Multiline",
+    "_meta": {
+      "title": "Title"
+    }
+  },
+  "130": {
+    "inputs": {
+      "text": "L’agricoltura di precisione in un’unica piattaforma "
+    },
+    "class_type": "Text Multiline",
+    "_meta": {
+      "title": "Subtitle"
+    }
+  },
+  "133": {
+    "inputs": {
+      "x": 0,
+      "y": 0,
+      "resize_source": false,
+      "destination": [
+        "576",
+        0
+      ],
+      "source": [
+        "559",
+        0
+      ],
+      "mask": [
+        "576",
+        1
+      ]
+    },
+    "class_type": "ImageCompositeMasked",
+    "_meta": {
+      "title": "ImageCompositeMasked"
+    }
+  },
+  "134": {
+    "inputs": {
+      "images": [
+        "133",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "137": {
+    "inputs": {
+      "image": "WhatsApp Image 2025-01-07 at 14.12.52.jpeg",
+      "resize": true,
+      "width": 400,
+      "height": 496,
+      "repeat": 1,
+      "keep_proportion": true,
+      "divisible_by": 2,
+      "mask_channel": "alpha",
+      "background_color": "#000000",
+      "upload": "image"
+    },
+    "class_type": "LoadAndResizeImage",
+    "_meta": {
+      "title": "Load & Resize Image"
+    }
+  },
+  "141": {
+    "inputs": {
+      "image": "WhatsApp Image 2024-12-23 at 19.04.23.jpeg",
+      "resize": true,
+      "width": [
+        "156",
+        0
+      ],
+      "height": [
+        "157",
+        0
+      ],
+      "repeat": 1,
+      "keep_proportion": true,
+      "divisible_by": 2,
+      "mask_channel": "alpha",
+      "background_color": "#000000",
+      "upload": "image"
+    },
+    "class_type": "LoadAndResizeImage",
+    "_meta": {
+      "title": "Load & Resize Image"
+    }
+  },
+  "142": {
+    "inputs": {
+      "text": "Sai quando è il momento giusto per un trattamento? Oppure quanta acqua serve davvero alla tua coltura? \n<b>4Agri</b> ti aiuta a prendere decisioni più precise grazie a dati agro-meteorologici e modelli predittivi avanzati. "
+    },
+    "class_type": "Text Multiline",
+    "_meta": {
+      "title": "Text1"
+    }
+  },
+  "144": {
+    "inputs": {
+      "text": "<b>Dimentica l'incertezza:</b>\n\n4Agri raccoglie e analizza dati su meteo, irrigazione, trattamenti e crescita delle piante, fornendo previsioni chiare e strategie su misura per la tua azienda agricola. "
+    },
+    "class_type": "Text Multiline",
+    "_meta": {
+      "title": "Text2"
+    }
+  },
+  "146": {
+    "inputs": {
+      "text": "Sostenibilità e produttività non devono contrastare per forza.\n\nGrazie a strumenti digitali innovativi, 4Agri ottimizza l’uso di acqua e fitofarmaci, <b>riducendo sprechi</b> e migliorando la resa delle tue colture. "
+    },
+    "class_type": "Text Multiline",
+    "_meta": {
+      "title": "Text3"
+    }
+  },
+  "156": {
+    "inputs": {
+      "text": [
+        "88",
+        0
+      ],
+      "round_integer": "round"
+    },
+    "class_type": "CR String To Number",
+    "_meta": {
+      "title": "🔧 CR String To Number"
+    }
+  },
+  "157": {
+    "inputs": {
+      "text": [
+        "91",
+        0
+      ],
+      "round_integer": "round"
+    },
+    "class_type": "CR String To Number",
+    "_meta": {
+      "title": "🔧 CR String To Number"
+    }
+  },
+  "168": {
+    "inputs": {
+      "width": 1080,
+      "height": 1350,
+      "x": 0,
+      "y": 0,
+      "image": [
+        "172",
+        0
+      ]
+    },
+    "class_type": "ImageCrop",
+    "_meta": {
+      "title": "Image Crop"
+    }
+  },
+  "172": {
+    "inputs": {
+      "max_width": 1080,
+      "max_height": 1352,
+      "min_width": 1080,
+      "min_height": 1350,
+      "crop_if_required": "yes",
+      "images": [
+        "141",
+        0
+      ]
+    },
+    "class_type": "ConstrainImage|pysssss",
+    "_meta": {
+      "title": "Constrain Image 🐍"
+    }
+  },
+  "175": {
+    "inputs": {
+      "width": 1080,
+      "height": 1350,
+      "x": 0,
+      "y": 0,
+      "image": [
+        "176",
+        0
+      ]
+    },
+    "class_type": "ImageCrop",
+    "_meta": {
+      "title": "Image Crop"
+    }
+  },
+  "176": {
+    "inputs": {
+      "max_width": 1080,
+      "max_height": 1352,
+      "min_width": 1080,
+      "min_height": 1350,
+      "crop_if_required": "yes",
+      "images": [
+        "197",
+        0
+      ]
+    },
+    "class_type": "ConstrainImage|pysssss",
+    "_meta": {
+      "title": "Constrain Image 🐍"
+    }
+  },
+  "177": {
+    "inputs": {
+      "images": [
+        "175",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "179": {
+    "inputs": {
+      "width": 1080,
+      "height": 1350,
+      "x": 0,
+      "y": 0,
+      "image": [
+        "180",
+        0
+      ]
+    },
+    "class_type": "ImageCrop",
+    "_meta": {
+      "title": "Image Crop"
+    }
+  },
+  "180": {
+    "inputs": {
+      "max_width": 1080,
+      "max_height": 1352,
+      "min_width": 1080,
+      "min_height": 1350,
+      "crop_if_required": "yes",
+      "images": [
+        "432",
+        0
+      ]
+    },
+    "class_type": "ConstrainImage|pysssss",
+    "_meta": {
+      "title": "Constrain Image 🐍"
+    }
+  },
+  "181": {
+    "inputs": {
+      "images": [
+        "179",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "183": {
+    "inputs": {
+      "width": 1080,
+      "height": 1350,
+      "x": 0,
+      "y": 0,
+      "image": [
+        "184",
+        0
+      ]
+    },
+    "class_type": "ImageCrop",
+    "_meta": {
+      "title": "Image Crop"
+    }
+  },
+  "184": {
+    "inputs": {
+      "max_width": 1080,
+      "max_height": 1352,
+      "min_width": 1080,
+      "min_height": 1350,
+      "crop_if_required": "yes",
+      "images": [
+        "137",
+        0
+      ]
+    },
+    "class_type": "ConstrainImage|pysssss",
+    "_meta": {
+      "title": "Constrain Image 🐍"
+    }
+  },
+  "185": {
+    "inputs": {
+      "images": [
+        "183",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "186": {
+    "inputs": {
+      "images": [
+        "168",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "192": {
+    "inputs": {
+      "x": 560,
+      "y": 0,
+      "resize_source": false,
+      "destination": [
+        "73",
+        0
+      ],
+      "source": [
+        "175",
+        0
+      ]
+    },
+    "class_type": "ImageCompositeMasked",
+    "_meta": {
+      "title": "ImageCompositeMasked"
+    }
+  },
+  "193": {
+    "inputs": {
+      "x": 0,
+      "y": 0,
+      "resize_source": false,
+      "destination": [
+        "574",
+        0
+      ],
+      "source": [
+        "192",
+        0
+      ],
+      "mask": [
+        "574",
+        1
+      ]
+    },
+    "class_type": "ImageCompositeMasked",
+    "_meta": {
+      "title": "ImageCompositeMasked"
+    }
+  },
+  "197": {
+    "inputs": {
+      "image": "TIG_Collio_1_S10860.jpg",
+      "upload": "image"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Image"
+    }
+  },
+  "204": {
+    "inputs": {
+      "x": 0,
+      "y": 0,
+      "resize_source": false,
+      "destination": [
+        "575",
+        0
+      ],
+      "source": [
+        "212",
+        0
+      ],
+      "mask": [
+        "575",
+        1
+      ]
+    },
+    "class_type": "ImageCompositeMasked",
+    "_meta": {
+      "title": "ImageCompositeMasked"
+    }
+  },
+  "209": {
+    "inputs": {
+      "width": 524,
+      "height": 1350,
+      "x": 520,
+      "y": 0,
+      "image": [
+        "175",
+        0
+      ]
+    },
+    "class_type": "ImageCrop",
+    "_meta": {
+      "title": "Image Crop"
+    }
+  },
+  "212": {
+    "inputs": {
+      "left": 0,
+      "top": 0,
+      "right": 560,
+      "bottom": 0,
+      "feathering": 0,
+      "image": [
+        "209",
+        0
+      ]
+    },
+    "class_type": "ImagePadForOutpaintMasked",
+    "_meta": {
+      "title": "Image Pad For Outpaint Masked"
+    }
+  },
+  "219": {
+    "inputs": {
+      "text": "#EnergiaPulita"
+    },
+    "class_type": "Text Multiline",
+    "_meta": {
+      "title": "Hashtag"
+    }
+  },
+  "226": {
+    "inputs": {
+      "text": "<b>Scopri come 4Agri \npuò rivoluzionare il tuo modo di lavorare</b>\n\n\n\n\n\nSeguici per rimanere aggiornato."
+    },
+    "class_type": "Text Multiline",
+    "_meta": {
+      "title": "CTA"
+    }
+  },
+  "244": {
+    "inputs": {
+      "String": "4Agri01"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "PostID"
+    }
+  },
+  "246": {
+    "inputs": {
+      "output_path": [
+        "248",
+        0
+      ],
+      "filename_prefix": [
+        "257",
+        0
+      ],
+      "filename_delimiter": "_",
+      "filename_number_padding": 4,
+      "filename_number_start": "false",
+      "extension": "png",
+      "dpi": 300,
+      "quality": 100,
+      "optimize_image": "true",
+      "lossless_webp": "false",
+      "overwrite_mode": "false",
+      "show_history": "false",
+      "show_history_by_prefix": "true",
+      "embed_workflow": "false",
+      "show_previews": "true",
+      "images": [
+        "299",
+        0
+      ]
+    },
+    "class_type": "Image Save",
+    "_meta": {
+      "title": "Image Save"
+    }
+  },
+  "247": {
+    "inputs": {
+      "input_text": [
+        "129",
+        0
+      ],
+      "replacement_char": "-",
+      "invalid_chars": " #%&{}\\\\<>*?/ $!'\\\":@+`|=.",
+      "prefix": "",
+      "char_limit": 30
+    },
+    "class_type": "CleanFileNameNode",
+    "_meta": {
+      "title": "APZmedia Clean File Name Node"
+    }
+  },
+  "248": {
+    "inputs": {
+      "Prepend": [
+        "249",
+        0
+      ],
+      "Append": [
+        "244",
+        0
+      ],
+      "Delimiter": ""
+    },
+    "class_type": "DF_String_Concatenate",
+    "_meta": {
+      "title": "String Concatenate"
+    }
+  },
+  "249": {
+    "inputs": {
+      "String": "G:\\Shared drives\\ASIMOV MEDIA\\POSTS\\Caroussels\\"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "DestinationFolder"
+    }
+  },
+  "256": {
+    "inputs": {
+      "String": "Slide00"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "String"
+    }
+  },
+  "257": {
+    "inputs": {
+      "Prepend": [
+        "247",
+        0
+      ],
+      "Append": [
+        "256",
+        0
+      ],
+      "Delimiter": "-"
+    },
+    "class_type": "DF_String_Concatenate",
+    "_meta": {
+      "title": "String Concatenate"
+    }
+  },
+  "259": {
+    "inputs": {
+      "output_path": [
+        "260",
+        0
+      ],
+      "filename_prefix": [
+        "265",
+        0
+      ],
+      "filename_delimiter": "_",
+      "filename_number_padding": 4,
+      "filename_number_start": "false",
+      "extension": "png",
+      "dpi": 300,
+      "quality": 100,
+      "optimize_image": "true",
+      "lossless_webp": "false",
+      "overwrite_mode": "false",
+      "show_history": "false",
+      "show_history_by_prefix": "true",
+      "embed_workflow": "false",
+      "show_previews": "true",
+      "images": [
+        "298",
+        0
+      ]
+    },
+    "class_type": "Image Save",
+    "_meta": {
+      "title": "Image Save"
+    }
+  },
+  "260": {
+    "inputs": {
+      "Prepend": [
+        "249",
+        0
+      ],
+      "Append": [
+        "244",
+        0
+      ],
+      "Delimiter": ""
+    },
+    "class_type": "DF_String_Concatenate",
+    "_meta": {
+      "title": "String Concatenate"
+    }
+  },
+  "264": {
+    "inputs": {
+      "String": "Slide01"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "String"
+    }
+  },
+  "265": {
+    "inputs": {
+      "Prepend": [
+        "247",
+        0
+      ],
+      "Append": [
+        "264",
+        0
+      ],
+      "Delimiter": "-"
+    },
+    "class_type": "DF_String_Concatenate",
+    "_meta": {
+      "title": "String Concatenate"
+    }
+  },
+  "267": {
+    "inputs": {
+      "output_path": [
+        "268",
+        0
+      ],
+      "filename_prefix": [
+        "273",
+        0
+      ],
+      "filename_delimiter": "_",
+      "filename_number_padding": 4,
+      "filename_number_start": "false",
+      "extension": "png",
+      "dpi": 300,
+      "quality": 100,
+      "optimize_image": "true",
+      "lossless_webp": "false",
+      "overwrite_mode": "false",
+      "show_history": "false",
+      "show_history_by_prefix": "true",
+      "embed_workflow": "false",
+      "show_previews": "true",
+      "images": [
+        "297",
+        0
+      ]
+    },
+    "class_type": "Image Save",
+    "_meta": {
+      "title": "Image Save"
+    }
+  },
+  "268": {
+    "inputs": {
+      "Prepend": [
+        "249",
+        0
+      ],
+      "Append": [
+        "244",
+        0
+      ],
+      "Delimiter": ""
+    },
+    "class_type": "DF_String_Concatenate",
+    "_meta": {
+      "title": "String Concatenate"
+    }
+  },
+  "272": {
+    "inputs": {
+      "String": "Slide02"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "String"
+    }
+  },
+  "273": {
+    "inputs": {
+      "Prepend": [
+        "247",
+        0
+      ],
+      "Append": [
+        "272",
+        0
+      ],
+      "Delimiter": "-"
+    },
+    "class_type": "DF_String_Concatenate",
+    "_meta": {
+      "title": "String Concatenate"
+    }
+  },
+  "275": {
+    "inputs": {
+      "output_path": [
+        "276",
+        0
+      ],
+      "filename_prefix": [
+        "281",
+        0
+      ],
+      "filename_delimiter": "_",
+      "filename_number_padding": 4,
+      "filename_number_start": "false",
+      "extension": "png",
+      "dpi": 300,
+      "quality": 100,
+      "optimize_image": "true",
+      "lossless_webp": "false",
+      "overwrite_mode": "false",
+      "show_history": "false",
+      "show_history_by_prefix": "true",
+      "embed_workflow": "false",
+      "show_previews": "true",
+      "images": [
+        "296",
+        0
+      ]
+    },
+    "class_type": "Image Save",
+    "_meta": {
+      "title": "Image Save"
+    }
+  },
+  "276": {
+    "inputs": {
+      "Prepend": [
+        "249",
+        0
+      ],
+      "Append": [
+        "244",
+        0
+      ],
+      "Delimiter": ""
+    },
+    "class_type": "DF_String_Concatenate",
+    "_meta": {
+      "title": "String Concatenate"
+    }
+  },
+  "280": {
+    "inputs": {
+      "String": "Slide03"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "String"
+    }
+  },
+  "281": {
+    "inputs": {
+      "Prepend": [
+        "247",
+        0
+      ],
+      "Append": [
+        "280",
+        0
+      ],
+      "Delimiter": "-"
+    },
+    "class_type": "DF_String_Concatenate",
+    "_meta": {
+      "title": "String Concatenate"
+    }
+  },
+  "283": {
+    "inputs": {
+      "output_path": [
+        "284",
+        0
+      ],
+      "filename_prefix": [
+        "289",
+        0
+      ],
+      "filename_delimiter": "_",
+      "filename_number_padding": 4,
+      "filename_number_start": "false",
+      "extension": "png",
+      "dpi": 300,
+      "quality": 100,
+      "optimize_image": "true",
+      "lossless_webp": "false",
+      "overwrite_mode": "false",
+      "show_history": "false",
+      "show_history_by_prefix": "true",
+      "embed_workflow": "false",
+      "show_previews": "true",
+      "images": [
+        "302",
+        0
+      ]
+    },
+    "class_type": "Image Save",
+    "_meta": {
+      "title": "Image Save"
+    }
+  },
+  "284": {
+    "inputs": {
+      "Prepend": [
+        "249",
+        0
+      ],
+      "Append": [
+        "244",
+        0
+      ],
+      "Delimiter": ""
+    },
+    "class_type": "DF_String_Concatenate",
+    "_meta": {
+      "title": "String Concatenate"
+    }
+  },
+  "288": {
+    "inputs": {
+      "String": "Slide04"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "String"
+    }
+  },
+  "289": {
+    "inputs": {
+      "Prepend": [
+        "247",
+        0
+      ],
+      "Append": [
+        "288",
+        0
+      ],
+      "Delimiter": "-"
+    },
+    "class_type": "DF_String_Concatenate",
+    "_meta": {
+      "title": "String Concatenate"
+    }
+  },
+  "291": {
+    "inputs": {
+      "text": [
+        "268",
+        0
+      ],
+      "text2": "G:\\Shared drives\\ASIMOV MEDIA\\POSTS\\Caroussels\\4Agri01"
+    },
+    "class_type": "ShowText|pysssss",
+    "_meta": {
+      "title": "Show Text 🐍"
+    }
+  },
+  "296": {
+    "inputs": {
+      "theText": [
+        "146",
+        0
+      ],
+      "theTextbox_width": 512,
+      "theTextbox_height": 1350,
+      "max_font_size": 48,
+      "font": [
+        "459",
+        0
+      ],
+      "italic_font": [
+        "486",
+        0
+      ],
+      "bold_font": [
+        "465",
+        0
+      ],
+      "alignment": "left",
+      "vertical_alignment": "bottom",
+      "font_color": [
+        "581",
+        0
+      ],
+      "italic_font_color": [
+        "581",
+        0
+      ],
+      "bold_font_color": [
+        "581",
+        0
+      ],
+      "box_start_x": 512,
+      "box_start_y": 0,
+      "padding": 70,
+      "line_height_ratio": 1.2,
+      "show_bounding_box": "false",
+      "bounding_box_color": "#FF0000",
+      "line_width": 3,
+      "line_opacity": 1,
+      "box_background_color": "#FFFFFF",
+      "box_opacity": 1,
+      "image": [
+        "204",
+        0
+      ]
+    },
+    "class_type": "APZmediaImageRichTextOverlay",
+    "_meta": {
+      "title": "APZmedia Image Rich Text Overlay"
+    }
+  },
+  "297": {
+    "inputs": {
+      "theText": [
+        "144",
+        0
+      ],
+      "theTextbox_width": 512,
+      "theTextbox_height": 1350,
+      "max_font_size": 48,
+      "font": [
+        "459",
+        0
+      ],
+      "italic_font": [
+        "486",
+        0
+      ],
+      "bold_font": [
+        "465",
+        0
+      ],
+      "alignment": "left",
+      "vertical_alignment": "middle",
+      "font_color": [
+        "582",
+        0
+      ],
+      "italic_font_color": [
+        "582",
+        0
+      ],
+      "bold_font_color": [
+        "582",
+        0
+      ],
+      "box_start_x": 0,
+      "box_start_y": 0,
+      "padding": 70,
+      "line_height_ratio": 1.2,
+      "show_bounding_box": "false",
+      "bounding_box_color": "#FF0000",
+      "line_width": 3,
+      "line_opacity": 1,
+      "box_background_color": "#FFFFFF",
+      "box_opacity": 1,
+      "image": [
+        "193",
+        0
+      ]
+    },
+    "class_type": "APZmediaImageRichTextOverlay",
+    "_meta": {
+      "title": "APZmedia Image Rich Text Overlay"
+    }
+  },
+  "298": {
+    "inputs": {
+      "theText": [
+        "219",
+        0
+      ],
+      "theTextbox_width": 1080,
+      "theTextbox_height": 182,
+      "max_font_size": 35,
+      "font": [
+        "459",
+        0
+      ],
+      "italic_font": [
+        "486",
+        0
+      ],
+      "bold_font": [
+        "465",
+        0
+      ],
+      "alignment": "right",
+      "vertical_alignment": "middle",
+      "font_color": [
+        "81",
+        0
+      ],
+      "italic_font_color": [
+        "81",
+        0
+      ],
+      "bold_font_color": [
+        "81",
+        0
+      ],
+      "box_start_x": 0,
+      "box_start_y": 1190,
+      "padding": 70,
+      "line_height_ratio": 1.2,
+      "show_bounding_box": "false",
+      "bounding_box_color": "#FF0000",
+      "line_width": 3,
+      "line_opacity": 1,
+      "box_background_color": "#FFFFFF",
+      "box_opacity": 1,
+      "image": [
+        "303",
+        0
+      ]
+    },
+    "class_type": "APZmediaImageRichTextOverlay",
+    "_meta": {
+      "title": "APZmedia Image Rich Text Overlay"
+    }
+  },
+  "299": {
+    "inputs": {
+      "theText": [
+        "130",
+        0
+      ],
+      "theTextbox_width": 752,
+      "theTextbox_height": 98,
+      "max_font_size": 40,
+      "font": [
+        "459",
+        0
+      ],
+      "italic_font": [
+        "486",
+        0
+      ],
+      "bold_font": [
+        "465",
+        0
+      ],
+      "alignment": "left",
+      "vertical_alignment": "middle",
+      "font_color": [
+        "81",
+        0
+      ],
+      "italic_font_color": [
+        "81",
+        0
+      ],
+      "bold_font_color": [
+        "81",
+        0
+      ],
+      "box_start_x": 70,
+      "box_start_y": 1068,
+      "padding": 0,
+      "line_height_ratio": 1.2,
+      "show_bounding_box": "false",
+      "bounding_box_color": "#FF0000",
+      "line_width": 3,
+      "line_opacity": 1,
+      "box_background_color": "#FFFFFF",
+      "box_opacity": 1,
+      "image": [
+        "300",
+        0
+      ]
+    },
+    "class_type": "APZmediaImageRichTextOverlay",
+    "_meta": {
+      "title": "APZmedia Image Rich Text Overlay"
+    }
+  },
+  "300": {
+    "inputs": {
+      "theText": [
+        "129",
+        0
+      ],
+      "theTextbox_width": 752,
+      "theTextbox_height": 554,
+      "max_font_size": 135,
+      "font": [
+        "471",
+        0
+      ],
+      "italic_font": [
+        "481",
+        0
+      ],
+      "bold_font": [
+        "465",
+        0
+      ],
+      "alignment": "left",
+      "vertical_alignment": "middle",
+      "font_color": [
+        "81",
+        0
+      ],
+      "italic_font_color": [
+        "81",
+        0
+      ],
+      "bold_font_color": [
+        "81",
+        0
+      ],
+      "box_start_x": 70,
+      "box_start_y": 250,
+      "padding": 0,
+      "line_height_ratio": 1.2,
+      "show_bounding_box": "false",
+      "bounding_box_color": "#FF0000",
+      "line_width": 3,
+      "line_opacity": 1,
+      "box_background_color": "#FFFFFF",
+      "box_opacity": 1,
+      "image": [
+        "9",
+        0
+      ]
+    },
+    "class_type": "APZmediaImageRichTextOverlay",
+    "_meta": {
+      "title": "APZmedia Image Rich Text Overlay"
+    }
+  },
+  "301": {
+    "inputs": {
+      "theText": [
+        "226",
+        0
+      ],
+      "theTextbox_width": 1080,
+      "theTextbox_height": 650,
+      "max_font_size": 64,
+      "font": [
+        "459",
+        0
+      ],
+      "italic_font": [
+        "486",
+        0
+      ],
+      "bold_font": [
+        "465",
+        0
+      ],
+      "alignment": "center",
+      "vertical_alignment": "bottom",
+      "font_color": [
+        "583",
+        0
+      ],
+      "italic_font_color": [
+        "583",
+        0
+      ],
+      "bold_font_color": [
+        "583",
+        0
+      ],
+      "box_start_x": 0,
+      "box_start_y": 250,
+      "padding": 120,
+      "line_height_ratio": 1.2,
+      "show_bounding_box": "false",
+      "bounding_box_color": "#00FF00",
+      "line_width": 3,
+      "line_opacity": 1,
+      "box_background_color": "#FFFFFF",
+      "box_opacity": 0.2,
+      "image": [
+        "133",
+        0
+      ]
+    },
+    "class_type": "APZmediaImageRichTextOverlay",
+    "_meta": {
+      "title": "APZmedia Image Rich Text Overlay"
+    }
+  },
+  "302": {
+    "inputs": {
+      "theText": [
+        "219",
+        0
+      ],
+      "theTextbox_width": 1080,
+      "theTextbox_height": 1350,
+      "max_font_size": 60,
+      "font": [
+        "459",
+        0
+      ],
+      "italic_font": [
+        "486",
+        0
+      ],
+      "bold_font": [
+        "465",
+        0
+      ],
+      "alignment": "right",
+      "vertical_alignment": "bottom",
+      "font_color": [
+        "583",
+        0
+      ],
+      "italic_font_color": [
+        "583",
+        0
+      ],
+      "bold_font_color": [
+        "583",
+        0
+      ],
+      "box_start_x": 0,
+      "box_start_y": 0,
+      "padding": 120,
+      "line_height_ratio": 1.2,
+      "show_bounding_box": "false",
+      "bounding_box_color": "#FF0000",
+      "line_width": 3,
+      "line_opacity": 1,
+      "box_background_color": "#FFFFFF",
+      "box_opacity": 0,
+      "image": [
+        "301",
+        0
+      ]
+    },
+    "class_type": "APZmediaImageRichTextOverlay",
+    "_meta": {
+      "title": "APZmedia Image Rich Text Overlay"
+    }
+  },
+  "303": {
+    "inputs": {
+      "theText": [
+        "142",
+        0
+      ],
+      "theTextbox_width": 1080,
+      "theTextbox_height": 1140,
+      "max_font_size": 65,
+      "font": [
+        "459",
+        0
+      ],
+      "italic_font": [
+        "486",
+        0
+      ],
+      "bold_font": [
+        "465",
+        0
+      ],
+      "alignment": "left",
+      "vertical_alignment": "middle",
+      "font_color": [
+        "81",
+        0
+      ],
+      "italic_font_color": [
+        "81",
+        0
+      ],
+      "bold_font_color": [
+        "81",
+        0
+      ],
+      "box_start_x": 0,
+      "box_start_y": 80,
+      "padding": 70,
+      "line_height_ratio": 1.2,
+      "show_bounding_box": "false",
+      "bounding_box_color": "#FF0000",
+      "line_width": 3,
+      "line_opacity": 1,
+      "box_background_color": "#FFFFFF",
+      "box_opacity": 1,
+      "image": [
+        "573",
+        0
+      ]
+    },
+    "class_type": "APZmediaImageRichTextOverlay",
+    "_meta": {
+      "title": "APZmedia Image Rich Text Overlay"
+    }
+  },
+  "386": {
+    "inputs": {
+      "root_folder": "G:\\Shared drives\\ASIMOV MEDIA\\Templates\\Caroussel_WiForAgri",
+      "project_name": "",
+      "episode_name": "",
+      "shot_name": "Slide 1",
+      "pass_name": "",
+      "toggle_root_folder": "Include",
+      "toggle_project_name": "Exclude",
+      "toggle_episode_name": "Exclude",
+      "toggle_shot_name": "Include",
+      "toggle_pass_name": "Exclude"
+    },
+    "class_type": "GenerateFilePathNode",
+    "_meta": {
+      "title": "Generate File Path Node"
+    }
+  },
+  "387": {
+    "inputs": {
+      "images": [
+        "572",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "389": {
+    "inputs": {
+      "text": [
+        "386",
+        0
+      ],
+      "text2": "G:\\Shared drives\\ASIMOV MEDIA\\Templates\\Caroussel_WiForAgri\\Slide 1"
+    },
+    "class_type": "ShowText|pysssss",
+    "_meta": {
+      "title": "Show Text 🐍"
+    }
+  },
+  "393": {
+    "inputs": {
+      "root_folder": "G:\\Shared drives\\ASIMOV MEDIA\\Templates\\Caroussel_WiForAgri",
+      "project_name": "",
+      "episode_name": "",
+      "shot_name": "Slide 2",
+      "pass_name": "",
+      "toggle_root_folder": "Include",
+      "toggle_project_name": "Exclude",
+      "toggle_episode_name": "Exclude",
+      "toggle_shot_name": "Include",
+      "toggle_pass_name": "Exclude"
+    },
+    "class_type": "GenerateFilePathNode",
+    "_meta": {
+      "title": "Generate File Path Node"
+    }
+  },
+  "394": {
+    "inputs": {
+      "images": [
+        "573",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "396": {
+    "inputs": {
+      "text": [
+        "393",
+        0
+      ],
+      "text2": "G:\\Shared drives\\ASIMOV MEDIA\\Templates\\Caroussel_WiForAgri\\Slide 2"
+    },
+    "class_type": "ShowText|pysssss",
+    "_meta": {
+      "title": "Show Text 🐍"
+    }
+  },
+  "399": {
+    "inputs": {
+      "root_folder": "G:\\Shared drives\\ASIMOV MEDIA\\Templates\\Caroussel_WiForAgri",
+      "project_name": "",
+      "episode_name": "",
+      "shot_name": "Slide 5",
+      "pass_name": "",
+      "toggle_root_folder": "Include",
+      "toggle_project_name": "Exclude",
+      "toggle_episode_name": "Exclude",
+      "toggle_shot_name": "Include",
+      "toggle_pass_name": "Exclude"
+    },
+    "class_type": "GenerateFilePathNode",
+    "_meta": {
+      "title": "Generate File Path Node"
+    }
+  },
+  "400": {
+    "inputs": {
+      "images": [
+        "576",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "402": {
+    "inputs": {
+      "text": [
+        "399",
+        0
+      ],
+      "text2": "G:\\Shared drives\\ASIMOV MEDIA\\Templates\\Caroussel_WiForAgri\\Slide 5"
+    },
+    "class_type": "ShowText|pysssss",
+    "_meta": {
+      "title": "Show Text 🐍"
+    }
+  },
+  "405": {
+    "inputs": {
+      "root_folder": "G:\\Shared drives\\ASIMOV MEDIA\\Templates\\Caroussel_WiForAgri",
+      "project_name": "",
+      "episode_name": "",
+      "shot_name": "Slide 3",
+      "pass_name": "",
+      "toggle_root_folder": "Include",
+      "toggle_project_name": "Exclude",
+      "toggle_episode_name": "Exclude",
+      "toggle_shot_name": "Include",
+      "toggle_pass_name": "Exclude"
+    },
+    "class_type": "GenerateFilePathNode",
+    "_meta": {
+      "title": "Generate File Path Node"
+    }
+  },
+  "406": {
+    "inputs": {
+      "images": [
+        "574",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "408": {
+    "inputs": {
+      "text": [
+        "405",
+        0
+      ],
+      "text2": "G:\\Shared drives\\ASIMOV MEDIA\\Templates\\Caroussel_WiForAgri\\Slide 3"
+    },
+    "class_type": "ShowText|pysssss",
+    "_meta": {
+      "title": "Show Text 🐍"
+    }
+  },
+  "411": {
+    "inputs": {
+      "root_folder": "G:\\Shared drives\\ASIMOV MEDIA\\Templates\\Caroussel_WiForAgri",
+      "project_name": "",
+      "episode_name": "",
+      "shot_name": "Slide 4",
+      "pass_name": "",
+      "toggle_root_folder": "Include",
+      "toggle_project_name": "Exclude",
+      "toggle_episode_name": "Exclude",
+      "toggle_shot_name": "Include",
+      "toggle_pass_name": "Exclude"
+    },
+    "class_type": "GenerateFilePathNode",
+    "_meta": {
+      "title": "Generate File Path Node"
+    }
+  },
+  "412": {
+    "inputs": {
+      "images": [
+        "575",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "414": {
+    "inputs": {
+      "text": [
+        "411",
+        0
+      ],
+      "text2": "G:\\Shared drives\\ASIMOV MEDIA\\Templates\\Caroussel_WiForAgri\\Slide 4"
+    },
+    "class_type": "ShowText|pysssss",
+    "_meta": {
+      "title": "Show Text 🐍"
+    }
+  },
+  "419": {
+    "inputs": {
+      "root_folder": "G:\\Shared drives\\ASIMOV MEDIA\\Templates\\Caroussel_WiForAgri",
+      "project_name": "",
+      "episode_name": "",
+      "shot_name": "Slide 6",
+      "pass_name": "",
+      "toggle_root_folder": "Include",
+      "toggle_project_name": "Exclude",
+      "toggle_episode_name": "Exclude",
+      "toggle_shot_name": "Include",
+      "toggle_pass_name": "Exclude"
+    },
+    "class_type": "GenerateFilePathNode",
+    "_meta": {
+      "title": "Generate File Path Node"
+    }
+  },
+  "420": {
+    "inputs": {
+      "images": [
+        "578",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "422": {
+    "inputs": {
+      "text": [
+        "419",
+        0
+      ],
+      "text2": "G:\\Shared drives\\ASIMOV MEDIA\\Templates\\Caroussel_WiForAgri\\Slide 6"
+    },
+    "class_type": "ShowText|pysssss",
+    "_meta": {
+      "title": "Show Text 🐍"
+    }
+  },
+  "432": {
+    "inputs": {
+      "image": "WhatsApp Image 2024-12-23 at 19.04.22 (4).jpeg",
+      "resize": true,
+      "width": 1352,
+      "height": 4576,
+      "repeat": 1,
+      "keep_proportion": true,
+      "divisible_by": 2,
+      "mask_channel": "alpha",
+      "background_color": "#000000",
+      "upload": "image"
+    },
+    "class_type": "LoadAndResizeImage",
+    "_meta": {
+      "title": "Load & Resize Image"
+    }
+  },
+  "435": {
+    "inputs": {
+      "root_folder": "G:\\Shared drives\\ASIMOV MEDIA\\Templates\\Caroussel_WiForAgri",
+      "project_name": "",
+      "episode_name": "",
+      "shot_name": "Slide7",
+      "pass_name": "",
+      "toggle_root_folder": "Include",
+      "toggle_project_name": "Exclude",
+      "toggle_episode_name": "Exclude",
+      "toggle_shot_name": "Include",
+      "toggle_pass_name": "Exclude"
+    },
+    "class_type": "GenerateFilePathNode",
+    "_meta": {
+      "title": "Generate File Path Node"
+    }
+  },
+  "439": {
+    "inputs": {
+      "text": [
+        "435",
+        0
+      ],
+      "text2": "G:\\Shared drives\\ASIMOV MEDIA\\Templates\\Caroussel_WiForAgri\\Slide7"
+    },
+    "class_type": "ShowText|pysssss",
+    "_meta": {
+      "title": "Show Text 🐍"
+    }
+  },
+  "440": {
+    "inputs": {
+      "images": [
+        "577",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "458": {
+    "inputs": {
+      "String": "X:\\Assets\\Fonts\\"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "Font Root Folder"
+    }
+  },
+  "459": {
+    "inputs": {
+      "root_folder": [
+        "458",
+        0
+      ],
+      "project_name": "sdfsdfa",
+      "episode_name": "",
+      "shot_name": [
+        "461",
+        0
+      ],
+      "pass_name": "",
+      "toggle_root_folder": "Include",
+      "toggle_project_name": "Exclude",
+      "toggle_episode_name": "Exclude",
+      "toggle_shot_name": "Include",
+      "toggle_pass_name": "Exclude"
+    },
+    "class_type": "GenerateFilePathNode",
+    "_meta": {
+      "title": "Generate File Path Node"
+    }
+  },
+  "460": {
+    "inputs": {
+      "text": [
+        "459",
+        0
+      ],
+      "text2": "X:\\Assets\\Fonts\\OpenSans-Regular.ttf"
+    },
+    "class_type": "ShowText|pysssss",
+    "_meta": {
+      "title": "Show Text 🐍"
+    }
+  },
+  "461": {
+    "inputs": {
+      "String": "OpenSans-Regular.ttf"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "Paragraph font regular"
+    }
+  },
+  "465": {
+    "inputs": {
+      "root_folder": [
+        "458",
+        0
+      ],
+      "project_name": "sdfsdfa",
+      "episode_name": "",
+      "shot_name": [
+        "467",
+        0
+      ],
+      "pass_name": "",
+      "toggle_root_folder": "Include",
+      "toggle_project_name": "Exclude",
+      "toggle_episode_name": "Exclude",
+      "toggle_shot_name": "Include",
+      "toggle_pass_name": "Exclude"
+    },
+    "class_type": "GenerateFilePathNode",
+    "_meta": {
+      "title": "Generate File Path Node"
+    }
+  },
+  "466": {
+    "inputs": {
+      "text": [
+        "465",
+        0
+      ],
+      "text2": "X:\\Assets\\Fonts\\OpenSans-Bold.ttf"
+    },
+    "class_type": "ShowText|pysssss",
+    "_meta": {
+      "title": "Show Text 🐍"
+    }
+  },
+  "467": {
+    "inputs": {
+      "String": "OpenSans-Bold.ttf"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "Paragraph font bold"
+    }
+  },
+  "471": {
+    "inputs": {
+      "root_folder": [
+        "458",
+        0
+      ],
+      "project_name": "sdfsdfa",
+      "episode_name": "",
+      "shot_name": [
+        "473",
+        0
+      ],
+      "pass_name": "",
+      "toggle_root_folder": "Include",
+      "toggle_project_name": "Exclude",
+      "toggle_episode_name": "Exclude",
+      "toggle_shot_name": "Include",
+      "toggle_pass_name": "Exclude"
+    },
+    "class_type": "GenerateFilePathNode",
+    "_meta": {
+      "title": "Generate File Path Node"
+    }
+  },
+  "472": {
+    "inputs": {
+      "text": [
+        "471",
+        0
+      ],
+      "text2": "X:\\Assets\\Fonts\\Kirvy-Regular.otf"
+    },
+    "class_type": "ShowText|pysssss",
+    "_meta": {
+      "title": "Show Text 🐍"
+    }
+  },
+  "473": {
+    "inputs": {
+      "String": "Kirvy-Regular.otf"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "Title font regular"
+    }
+  },
+  "476": {
+    "inputs": {
+      "root_folder": [
+        "458",
+        0
+      ],
+      "project_name": "sdfsdfa",
+      "episode_name": "",
+      "shot_name": [
+        "478",
+        0
+      ],
+      "pass_name": "",
+      "toggle_root_folder": "Include",
+      "toggle_project_name": "Exclude",
+      "toggle_episode_name": "Exclude",
+      "toggle_shot_name": "Include",
+      "toggle_pass_name": "Exclude"
+    },
+    "class_type": "GenerateFilePathNode",
+    "_meta": {
+      "title": "Generate File Path Node"
+    }
+  },
+  "477": {
+    "inputs": {
+      "text": [
+        "476",
+        0
+      ],
+      "text2": "X:\\Assets\\Fonts\\Kirvy-Bold.otf"
+    },
+    "class_type": "ShowText|pysssss",
+    "_meta": {
+      "title": "Show Text 🐍"
+    }
+  },
+  "478": {
+    "inputs": {
+      "String": "Kirvy-Bold.otf"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "Title font bold"
+    }
+  },
+  "481": {
+    "inputs": {
+      "root_folder": [
+        "458",
+        0
+      ],
+      "project_name": "sdfsdfa",
+      "episode_name": "",
+      "shot_name": [
+        "483",
+        0
+      ],
+      "pass_name": "",
+      "toggle_root_folder": "Include",
+      "toggle_project_name": "Exclude",
+      "toggle_episode_name": "Exclude",
+      "toggle_shot_name": "Include",
+      "toggle_pass_name": "Exclude"
+    },
+    "class_type": "GenerateFilePathNode",
+    "_meta": {
+      "title": "Generate File Path Node"
+    }
+  },
+  "482": {
+    "inputs": {
+      "text": [
+        "481",
+        0
+      ],
+      "text2": "X:\\Assets\\Fonts\\Kirvy-Light.otf"
+    },
+    "class_type": "ShowText|pysssss",
+    "_meta": {
+      "title": "Show Text 🐍"
+    }
+  },
+  "483": {
+    "inputs": {
+      "String": "Kirvy-Light.otf"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "Title font italic"
+    }
+  },
+  "486": {
+    "inputs": {
+      "root_folder": [
+        "458",
+        0
+      ],
+      "project_name": "sdfsdfa",
+      "episode_name": "",
+      "shot_name": [
+        "488",
+        0
+      ],
+      "pass_name": "",
+      "toggle_root_folder": "Include",
+      "toggle_project_name": "Exclude",
+      "toggle_episode_name": "Exclude",
+      "toggle_shot_name": "Include",
+      "toggle_pass_name": "Exclude"
+    },
+    "class_type": "GenerateFilePathNode",
+    "_meta": {
+      "title": "Generate File Path Node"
+    }
+  },
+  "487": {
+    "inputs": {
+      "text": [
+        "486",
+        0
+      ],
+      "text2": "X:\\Assets\\Fonts\\OpenSans-Italic.ttf"
+    },
+    "class_type": "ShowText|pysssss",
+    "_meta": {
+      "title": "Show Text 🐍"
+    }
+  },
+  "488": {
+    "inputs": {
+      "String": "OpenSans-Italic.ttf"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "Paragraph font italic"
+    }
+  },
+  "534": {
+    "inputs": {
+      "image": [
+        "538",
+        0
+      ]
+    },
+    "class_type": "LoadImageFromPath",
+    "_meta": {
+      "title": "Load Image From Path"
+    }
+  },
+  "535": {
+    "inputs": {
+      "String": "G:\\Shared drives\\ComfyUI models\\brands\\WiForAgri\\Logos"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "Logo Root Folder"
+    }
+  },
+  "538": {
+    "inputs": {
+      "root_folder": [
+        "535",
+        0
+      ],
+      "project_name": "",
+      "episode_name": "",
+      "shot_name": "WiiforAgri_black.png",
+      "pass_name": "",
+      "toggle_root_folder": "Include",
+      "toggle_project_name": "Exclude",
+      "toggle_episode_name": "Exclude",
+      "toggle_shot_name": "Include",
+      "toggle_pass_name": "Exclude"
+    },
+    "class_type": "GenerateFilePathNode",
+    "_meta": {
+      "title": "Generate File Path Node"
+    }
+  },
+  "539": {
+    "inputs": {
+      "text": [
+        "538",
+        0
+      ],
+      "text2": "G:\\Shared drives\\ComfyUI models\\brands\\WiForAgri\\Logos\\WiiforAgri_black.png"
+    },
+    "class_type": "ShowText|pysssss",
+    "_meta": {
+      "title": "Show Text 🐍"
+    }
+  },
+  "540": {
+    "inputs": {
+      "images": [
+        "534",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "542": {
+    "inputs": {
+      "image": [
+        "544",
+        0
+      ]
+    },
+    "class_type": "LoadImageFromPath",
+    "_meta": {
+      "title": "Load Image From Path"
+    }
+  },
+  "544": {
+    "inputs": {
+      "root_folder": [
+        "535",
+        0
+      ],
+      "project_name": "",
+      "episode_name": "",
+      "shot_name": "WiiforAgri_green.png",
+      "pass_name": "",
+      "toggle_root_folder": "Include",
+      "toggle_project_name": "Exclude",
+      "toggle_episode_name": "Exclude",
+      "toggle_shot_name": "Include",
+      "toggle_pass_name": "Exclude"
+    },
+    "class_type": "GenerateFilePathNode",
+    "_meta": {
+      "title": "Generate File Path Node"
+    }
+  },
+  "545": {
+    "inputs": {
+      "text": [
+        "544",
+        0
+      ],
+      "text2": "G:\\Shared drives\\ComfyUI models\\brands\\WiForAgri\\Logos\\WiiforAgri_green.png"
+    },
+    "class_type": "ShowText|pysssss",
+    "_meta": {
+      "title": "Show Text 🐍"
+    }
+  },
+  "546": {
+    "inputs": {
+      "images": [
+        "542",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "548": {
+    "inputs": {
+      "image": [
+        "550",
+        0
+      ]
+    },
+    "class_type": "LoadImageFromPath",
+    "_meta": {
+      "title": "Load Image From Path"
+    }
+  },
+  "550": {
+    "inputs": {
+      "root_folder": [
+        "535",
+        0
+      ],
+      "project_name": "",
+      "episode_name": "",
+      "shot_name": "WiiforAgri_white.png",
+      "pass_name": "",
+      "toggle_root_folder": "Include",
+      "toggle_project_name": "Exclude",
+      "toggle_episode_name": "Exclude",
+      "toggle_shot_name": "Include",
+      "toggle_pass_name": "Exclude"
+    },
+    "class_type": "GenerateFilePathNode",
+    "_meta": {
+      "title": "Generate File Path Node"
+    }
+  },
+  "551": {
+    "inputs": {
+      "text": [
+        "550",
+        0
+      ],
+      "text2": "G:\\Shared drives\\ComfyUI models\\brands\\WiForAgri\\Logos\\WiiforAgri_white.png"
+    },
+    "class_type": "ShowText|pysssss",
+    "_meta": {
+      "title": "Show Text 🐍"
+    }
+  },
+  "552": {
+    "inputs": {
+      "images": [
+        "548",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "558": {
+    "inputs": {
+      "width": 1080,
+      "height": 1350,
+      "start_color": "custom",
+      "end_color": "custom",
+      "gradient_distance": 1,
+      "radial_center_x": 0.5,
+      "radial_center_y": 0.5,
+      "start_color_hex": [
+        "74",
+        0
+      ],
+      "end_color_hex": [
+        "74",
+        0
+      ]
+    },
+    "class_type": "CR Radial Gradient",
+    "_meta": {
+      "title": "🟨 CR Radial Gradient"
+    }
+  },
+  "559": {
+    "inputs": {
+      "x": 200,
+      "y": 150,
+      "resize_source": false,
+      "destination": [
+        "558",
+        0
+      ],
+      "source": [
+        "561",
+        0
+      ],
+      "mask": [
+        "573",
+        1
+      ]
+    },
+    "class_type": "ImageCompositeMasked",
+    "_meta": {
+      "title": "ImageCompositeMasked"
+    }
+  },
+  "561": {
+    "inputs": {
+      "upscale_method": "nearest-exact",
+      "megapixels": 0.03,
+      "image": [
+        "573",
+        0
+      ]
+    },
+    "class_type": "ImageScaleToTotalPixels",
+    "_meta": {
+      "title": "Scale Image to Total Pixels"
+    }
+  },
+  "566": {
+    "inputs": {
+      "String": "#f0f0ef"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "String"
+    }
+  },
+  "569": {
+    "inputs": {
+      "String": "#b4dfed"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "String"
+    }
+  },
+  "572": {
+    "inputs": {
+      "directory": [
+        "386",
+        0
+      ],
+      "image_load_cap": 1,
+      "skip_first_images": 1,
+      "select_every_nth": 1
+    },
+    "class_type": "VHS_LoadImagesPath",
+    "_meta": {
+      "title": "Load Images (Path) 🎥🅥🅗🅢"
+    }
+  },
+  "573": {
+    "inputs": {
+      "directory": [
+        "393",
+        0
+      ],
+      "image_load_cap": 1,
+      "skip_first_images": 0,
+      "select_every_nth": 1
+    },
+    "class_type": "VHS_LoadImagesPath",
+    "_meta": {
+      "title": "Load Images (Path) 🎥🅥🅗🅢"
+    }
+  },
+  "574": {
+    "inputs": {
+      "directory": [
+        "405",
+        0
+      ],
+      "image_load_cap": 1,
+      "skip_first_images": 0,
+      "select_every_nth": 1
+    },
+    "class_type": "VHS_LoadImagesPath",
+    "_meta": {
+      "title": "Load Images (Path) 🎥🅥🅗🅢"
+    }
+  },
+  "575": {
+    "inputs": {
+      "directory": [
+        "411",
+        0
+      ],
+      "image_load_cap": 1,
+      "skip_first_images": 0,
+      "select_every_nth": 1
+    },
+    "class_type": "VHS_LoadImagesPath",
+    "_meta": {
+      "title": "Load Images (Path) 🎥🅥🅗🅢"
+    }
+  },
+  "576": {
+    "inputs": {
+      "directory": [
+        "399",
+        0
+      ],
+      "image_load_cap": 1,
+      "skip_first_images": 0,
+      "select_every_nth": 1
+    },
+    "class_type": "VHS_LoadImagesPath",
+    "_meta": {
+      "title": "Load Images (Path) 🎥🅥🅗🅢"
+    }
+  },
+  "577": {
+    "inputs": {
+      "directory": [
+        "435",
+        0
+      ],
+      "image_load_cap": 0,
+      "skip_first_images": 0,
+      "select_every_nth": 1
+    },
+    "class_type": "VHS_LoadImagesPath",
+    "_meta": {
+      "title": "Load Images (Path) 🎥🅥🅗🅢"
+    }
+  },
+  "578": {
+    "inputs": {
+      "directory": [
+        "419",
+        0
+      ],
+      "image_load_cap": 0,
+      "skip_first_images": 0,
+      "select_every_nth": 1
+    },
+    "class_type": "VHS_LoadImagesPath",
+    "_meta": {
+      "title": "Load Images (Path) 🎥🅥🅗🅢"
+    }
+  },
+  "581": {
+    "inputs": {
+      "String": "#000000"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "String"
+    }
+  },
+  "582": {
+    "inputs": {
+      "String": "#000000"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "String"
+    }
+  },
+  "583": {
+    "inputs": {
+      "String": "#000000"
+    },
+    "class_type": "String",
+    "_meta": {
+      "title": "String"
+    }
+  }
+}
