@@ -4,7 +4,7 @@ import json
 import uuid
 import time
 
-COMFYUI_ENDPOINT = "127.0.0.1:8188"
+COMFYUI_ENDPOINT = "127.0.0.1:8192"
 
 def join_output_text(text_list):
     """Joins a list of individual characters into a single string."""
